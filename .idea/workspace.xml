@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13cb73ba-b1b0-4dbd-9e68-a29e718986aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/myproject/helloDjangoApp/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/myproject/helloDjangoApp/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/myproject/helloDjangoApp/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/django.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/myproject/helloDjangoApp/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/myproject/helloDjangoApp/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/myproject/helloDjangoApp/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/myproject/myproject/settings.py" afterPath="$PROJECT_DIR$/wsgi/myproject/myproject/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/myproject/myproject/urls.py" afterPath="$PROJECT_DIR$/wsgi/myproject/myproject/urls.py" />
-    </list>
+    <list default="true" id="13cb73ba-b1b0-4dbd-9e68-a29e718986aa" name="Default" comment="" />
     <ignored path="django.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
