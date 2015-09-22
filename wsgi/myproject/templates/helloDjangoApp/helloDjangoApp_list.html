@@ -1,0 +1,11 @@
+<h1>HelloDjangApp</h1>
+<ul>
+    {% for server in object_list %}
+    <li>{{ server.name }}  :
+    <a href="{% url "helloDjangoApp_edit" helloDjangoApp.id %}">{{ helloDjangoApp.ip }}</a>
+    <a href="{% url "helloDjangoApp_delete" helloDjangoApp.id %}">delete</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<a href="{% url "helloDjangoApp_new" %}">New</a>

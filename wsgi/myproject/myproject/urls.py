@@ -16,8 +16,14 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from helloDjangoApp.views import hello
+from helloDjangoApp import views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^helloDjangoApp/', hello),
+    url(r'^helloDjangoApp/', include('helloDjangoApp.urls')),
+    url(r'^$', views.HelloDjangoAppList.as_view(), name='helloDjangoApp_list'),
+    url(r'^new$', views.HelloDjangoAppCreate.as_view(), name='helloDjangoApp_new'),
+    url(r'^edit/(?P<pk>\d+)$', views.HelloDjangoAppUpdate.as_view(), name='helloDjangoApp_edit'),
+    url(r'^delete/(?P<pk>\d+)$', views.HelloDjangoAppDelete.as_view(), name='helloDjangoApp_delete'),
 ]
